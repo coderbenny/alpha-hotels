@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background: radial-gradient(circle, #ff5733, #6bbaec);
+}
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    color: white;
+}
+
+.container{
+    /* background-color: #4bddc4; */
+}
+
+h2{
+    display: flex;
+    text-align: center;
+}
+
+.table-number{
+    float: right;
+    padding: 5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th{
+    text-align: left;
+}
+
+th, td{
+    padding: 8px;
+
+}
+
+#orderBtn{
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
